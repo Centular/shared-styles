@@ -685,21 +685,20 @@ aside ul li.selected a {
   margin: 0 15px;
   max-width: 30px;
 }
-.main-section .box-container .wrapper {
+.main-section .nav-wrapper {
   padding: 30px 15px;
+  text-align: center;
 }
-.main-section .box-container .wrapper .pagination {
-  display: block;
+.main-section .nav-wrapper .pagination {
   margin: 0;
-  float: left;
   clear: both;
   margin-bottom: 15px;
 }
-.main-section .box-container .wrapper .pagination li {
+.main-section .nav-wrapper .pagination li {
   float: left;
   display: inline-block;
 }
-.main-section .box-container .wrapper .pagination li a {
+.main-section .nav-wrapper .pagination li a {
   font-size: 14px;
   color: #33a5e0;
   font-family: Avenir Medium;
@@ -710,73 +709,73 @@ aside ul li.selected a {
   padding: 0;
   border-color: #ccc;
 }
-.main-section .box-container .wrapper .pagination li a img.img-hover {
+.main-section .nav-wrapper .pagination li a img.img-hover {
   display: none;
 }
-.main-section .box-container .wrapper .pagination li a:hover {
+.main-section .nav-wrapper .pagination li a:hover {
   background: #ebebeb;
 }
-.main-section .box-container .wrapper .pagination li a:hover img {
+.main-section .nav-wrapper .pagination li a:hover img {
   display: none;
 }
-.main-section .box-container .wrapper .pagination li a:hover .img-hover {
+.main-section .nav-wrapper .pagination li a:hover .img-hover {
   display: inline-block;
 }
-.main-section .box-container .wrapper .pagination li a.active {
+.main-section .nav-wrapper .pagination li a.active {
   background: #33a5e0;
   color: #fff;
 }
-.main-section .box-container .wrapper .pagination li a.active img {
+.main-section .nav-wrapper .pagination li a.active img {
   display: none;
 }
-.main-section .box-container .wrapper .pagination li a.active img.img-hover {
+.main-section .nav-wrapper .pagination li a.active img.img-hover {
   display: inline-block;
 }
-.main-section .box-container .wrapper .pagination li a:focus,
-.main-section .box-container .wrapper .pagination li a:active {
+.main-section .nav-wrapper .pagination li a:focus,
+.main-section .nav-wrapper .pagination li a:active {
   background: #33a5e0;
   color: #fff;
 }
-.main-section .box-container .wrapper .pagination li a img {
+.main-section .nav-wrapper .pagination li a img {
   width: 13px;
 }
-.main-section .box-container .wrapper .pagination li:first-child:hover a,
-.main-section .box-container .wrapper .pagination li:last-child:hover a {
+.main-section .nav-wrapper .pagination li:first-child:hover a,
+.main-section .nav-wrapper .pagination li:last-child:hover a {
   background: #fff;
 }
-.main-section .box-container .wrapper .pagination li:first-child a,
-.main-section .box-container .wrapper .pagination li:last-child a {
+.main-section .nav-wrapper .pagination li:first-child a,
+.main-section .nav-wrapper .pagination li:last-child a {
   border-radius: 0;
 }
-.main-section .box-container .wrapper .pagination li:first-child a:focus,
-.main-section .box-container .wrapper .pagination li:last-child a:focus {
+.main-section .nav-wrapper .pagination li:first-child a:focus,
+.main-section .nav-wrapper .pagination li:last-child a:focus {
   background: none;
 }
-.main-section .box-container .wrapper .pagination-sm li a {
+.main-section .nav-wrapper .pagination-sm li a {
   width: 35px;
   height: 35px;
   font-size: 12px;
   line-height: 33px;
 }
-.main-section .box-container .wrapper .pagination-sm li a img {
+.main-section .nav-wrapper .pagination-sm li a img {
   width: 11px;
 }
-.main-section .box-container .wrapper .pagination-xs li a {
+.main-section .nav-wrapper .pagination-xs li a {
   width: 30px;
   height: 30px;
   font-size: 10px;
   line-height: 28px;
 }
-.main-section .box-container .wrapper .pagination-xs li a img {
+.main-section .nav-wrapper .pagination-xs li a img {
   width: 9px;
 }
-.main-section .box-container .wrapper .btn-grp {
+.main-section .nav-wrapper .btn-grp {
   float: left;
   width: 100%;
   margin-top: 15px;
   margin-bottom: 40px;
 }
-.main-section .box-container .wrapper .btn-grp button {
+.main-section .nav-wrapper .btn-grp button {
   background: none;
   /*.border(@border-grey-2);*/
   padding: 15px 25px;
@@ -784,122 +783,122 @@ aside ul li.selected a {
   color: #a2a7b3;
   text-aling: center;
 }
-.main-section .box-container .wrapper .btn-grp button span {
+.main-section .nav-wrapper .btn-grp button span {
   margin: 0 5px;
   display: inline-block;
   text-transform: uppercase;
 }
-.main-section .box-container .wrapper .btn-grp button img {
+.main-section .nav-wrapper .btn-grp button img {
   width: 16px;
   margin: 2px 5px 0;
   vertical-align: top;
 }
-.main-section .box-container .wrapper .btn-grp button .img-hover {
+.main-section .nav-wrapper .btn-grp button .img-hover {
   display: none;
 }
-.main-section .box-container .wrapper .btn-grp .extra {
+.main-section .nav-wrapper .btn-grp .extra {
   color: #33a5e0;
 }
-.main-section .box-container .wrapper .btn-grp .extra img {
+.main-section .nav-wrapper .btn-grp .extra img {
   display: none;
 }
-.main-section .box-container .wrapper .btn-grp .extra .img-hover {
+.main-section .nav-wrapper .btn-grp .extra .img-hover {
   display: inline-block;
 }
-.main-section .box-container .wrapper .btn-grp .extra:hover {
+.main-section .nav-wrapper .btn-grp .extra:hover {
   background: #ebebeb;
 }
-.main-section .box-container .wrapper .btn-grp .extra:focus,
-.main-section .box-container .wrapper .btn-grp .extra:active {
+.main-section .nav-wrapper .btn-grp .extra:focus,
+.main-section .nav-wrapper .btn-grp .extra:active {
   border-color: #33a5e0;
   background: none;
 }
-.main-section .box-container .typography {
+.main-section .typography {
   margin-bottom: 30px;
 }
-.main-section .box-container .typography h4 {
+.main-section .typography h4 {
   font-size: 20px;
   line-height: 21px;
   color: #484a4c;
   margin-bottom: 30px;
 }
-.main-section .box-container .typography h4 span {
+.main-section .typography h4 span {
   display: block;
 }
-.main-section .box-container .typography h5 {
+.main-section .typography h5 {
   font-size: 16px;
   line-height: 21px;
   color: #484a4c;
   margin-bottom: 30px;
 }
-.main-section .box-container .typography h5 span {
+.main-section .typography h5 span {
   display: block;
 }
-.main-section .box-container .typography .ex-text {
+.main-section .typography .ex-text {
   font-size: 16px;
   line-height: 21px;
   color: #898989;
   font-family: Avenir Medium;
   margin-bottom: 30px;
 }
-.main-section .box-container .typography .ex-text span {
+.main-section .typography .ex-text span {
   display: block;
 }
-.main-section .box-container .typography .input-text {
+.main-section .typography .input-text {
   font-size: 16px;
   line-height: 21px;
   color: #484a4c;
   margin-bottom: 30px;
   font-family: Avenir Medium;
 }
-.main-section .box-container .typography .input-text span {
+.main-section .typography .input-text span {
   display: block;
 }
-.main-section .box-container .typography .table-text {
+.main-section .typography .table-text {
   font-family: Avenir Medium;
   font-size: 14px;
   color: #484a4c;
   line-height: 21px;
   margin-bottom: 30px;
 }
-.main-section .box-container .typography .table-text span {
+.main-section .typography .table-text span {
   display: block;
 }
-.main-section .box-container .typography .help-text {
+.main-section .typography .help-text {
   margin-bottom: 30px;
 }
-.main-section .box-container .typography .help-text span {
+.main-section .typography .help-text span {
   display: block;
 }
-.main-section .box-container .typography .des-text {
+.main-section .typography .des-text {
   color: #929497;
   font-size: 12px;
   font-family: Avenir Medium;
   line-height: 19px;
   margin-bottom: 30px;
 }
-.main-section .box-container .typography .des-text span {
+.main-section .typography .des-text span {
   display: block;
 }
-.main-section .box-container .typography .cta-btn-text {
+.main-section .typography .cta-btn-text {
   margin-bottom: 30px;
 }
-.main-section .box-container .typography .cta-btn-text span {
+.main-section .typography .cta-btn-text span {
   display: block;
 }
-.main-section .box-container .typography span {
+.main-section .typography span {
   display: block;
 }
-.main-section .box-container .color-code {
+.main-section .color-code {
   float: left;
   width: 100%;
   margin-top: 50px;
 }
-.main-section .box-container .color-code span {
+.main-section .color-code span {
   display: block;
   clear: both;
 }
-.main-section .box-container .color-code div {
+.main-section .color-code div {
   float: left;
   padding: 45px 0;
   text-align: center;
@@ -911,34 +910,34 @@ aside ul li.selected a {
   line-height: 20px;
   margin: 0 12px 40px;
 }
-.main-section .box-container .color-code .pri {
+.main-section .color-code .pri {
   background: #00205a;
 }
-.main-section .box-container .color-code .sec {
+.main-section .color-code .sec {
   background: #204487;
 }
-.main-section .box-container .color-code .ter {
+.main-section .color-code .ter {
   background: #33a5e0;
 }
-.main-section .box-container .color-code .dark-grey {
+.main-section .color-code .dark-grey {
   background: #747c8d;
 }
-.main-section .box-container .color-code .light-grey {
+.main-section .color-code .light-grey {
   background: #a2a7b3;
 }
-.main-section .box-container .color-code .grey {
+.main-section .color-code .grey {
   background: #4a4a4a;
 }
-.main-section .box-container .color-code .logo-comp {
+.main-section .color-code .logo-comp {
   background: #000;
 }
-.main-section .box-container .color-code .green {
+.main-section .color-code .green {
   background: #5eb344;
 }
-.main-section .box-container .color-code .orange {
+.main-section .color-code .orange {
   background: #f7941d;
 }
-.main-section .box-container .color-code .red {
+.main-section .color-code .red {
   background: #d70d17;
 }
 .main-section .icons .icon {
