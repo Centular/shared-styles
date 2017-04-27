@@ -250,6 +250,9 @@ paper-input-container label {
 paper-input-container label .floating {
   margin-left: 10px;
 }
+paper-input-container textarea.ct-textarea {
+  padding: 0 10px !important;
+}
 paper-input-error {
   left: auto !important;
   right: 20px !important;
@@ -1572,6 +1575,18 @@ aside ul li.selected a {
 }
 .edit .tooltip-inner {
   color: #204487;
+}
+.hover-full-opacity:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.input-edit-icon {
+  margin: 6px;
+  font-size: 16px;
+  opacity: 0.5;
+}
+.hover-pointer {
+  cursor: pointer;
 }
 .unlink .tooltip-inner {
   color: #484a4c;
