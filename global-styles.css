@@ -330,7 +330,7 @@ ul.top-links li.bal span {
   color: #33a5e0;
 }
 a.user {
-  background: url(images/user-icon.png) no-repeat 0 0;
+  background: url(images/icons/user-icon.png) no-repeat 0 0;
   font-family: Avenir Medium;
   height: 30px;
   padding-left: 40px;
@@ -1155,7 +1155,7 @@ aside ul li.selected a {
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  background: #fff url(images/sel-down.png) no-repeat 100% center;
+  background: #fff url(images/icons/sel-down.png) no-repeat 100% center;
   padding-right: 50px;
   height: 45px;
   line-height: 45px;
@@ -1167,7 +1167,7 @@ aside ul li.selected a {
   color: #434A4C !important;
 }
 .form-elements .form-group .selected select {
-  background: url(images/sel-up.png) no-repeat 100% center;
+  background: url(images/icons/sel-up.png) no-repeat 100% center;
 }
 .form-elements .form-group .helper {
   padding-left: 55px;
@@ -1176,7 +1176,7 @@ aside ul li.selected a {
   padding-right: 55px;
 }
 .form-elements .form-group .counter {
-  background: url(images/counter-icon.png) no-repeat 100% 0;
+  background: url(images/icons/counter-icon.png) no-repeat 100% 0;
   padding-right: 55px;
 }
 .form-elements .form-group ::-webkit-input-placeholder {
