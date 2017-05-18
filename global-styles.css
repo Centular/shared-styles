@@ -487,6 +487,9 @@ aside ul li.selected a {
 .main-section .link a:hover {
   border-color: #204487;
 }
+.main-section .box.custom-box {
+  background: #fff;
+}
 .main-section .box-container {
   background: #fff;
   margin-bottom: 40px;
