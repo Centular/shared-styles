@@ -239,6 +239,9 @@ paper-input-container {
   margin-bottom: 24px;
   padding-left: 10px;
 }
+.label-and-input-container {
+  width: calc(80%) !important;
+}
 /*padding to move from border */
 paper-input-container input {
   padding-left: 10px;
