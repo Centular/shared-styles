@@ -1452,7 +1452,6 @@ aside ul li.selected a {
 .tab-content {
   float: left;
   width: 100%;
-  margin-bottom: 40px;
 }
 .tab-content .content {
   height: 300px;
